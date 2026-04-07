@@ -1,0 +1,1227 @@
+{
+  "generated_at": "2026-04-07T02:11:51Z",
+  "output_root": "/home/ubuntu/documents/awesome-agent-harness/mirror",
+  "results": [
+    {
+      "kind": "blog",
+      "name": "12 Factor Agents",
+      "source_url": "https://www.humanlayer.dev/blog/12-factor-agents",
+      "output_file": "blogs/01-12-factor-agents/article.md",
+      "bytes": 1153,
+      "assets": 1
+    },
+    {
+      "kind": "blog",
+      "name": "Agent Frameworks, Runtimes, and Harnesses, oh my!",
+      "source_url": "https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/",
+      "output_file": "blogs/02-agent-frameworks-runtimes-and-harnesses-oh-my/article.md",
+      "bytes": 4201,
+      "assets": 1
+    },
+    {
+      "kind": "blog",
+      "name": "Building agents with the Claude Agent SDK",
+      "source_url": "https://claude.com/blog/building-agents-with-the-claude-agent-sdk",
+      "output_file": "blogs/03-building-agents-with-the-claude-agent-sdk/article.md",
+      "bytes": 42213,
+      "assets": 11
+    },
+    {
+      "kind": "blog",
+      "name": "Building Effective AI Agents",
+      "source_url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "output_file": "blogs/04-building-effective-ai-agents/article.md",
+      "bytes": 9228,
+      "assets": 2
+    },
+    {
+      "kind": "blog",
+      "name": "Claude Code sandboxing",
+      "source_url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+      "output_file": "blogs/05-claude-code-sandboxing/article.md",
+      "bytes": 7645,
+      "assets": 2
+    },
+    {
+      "kind": "blog",
+      "name": "Code execution with MCP",
+      "source_url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+      "output_file": "blogs/06-code-execution-with-mcp/article.md",
+      "bytes": 10337,
+      "assets": 0
+    },
+    {
+      "kind": "blog",
+      "name": "Demystifying Evals for AI Agents",
+      "source_url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "output_file": "blogs/07-demystifying-evals-for-ai-agents/article.md",
+      "bytes": 42403,
+      "assets": 5
+    },
+    {
+      "kind": "blog",
+      "name": "Effective context engineering for AI agents",
+      "source_url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "output_file": "blogs/08-effective-context-engineering-for-ai-agents/article.md",
+      "bytes": 19432,
+      "assets": 1
+    },
+    {
+      "kind": "blog",
+      "name": "Effective harnesses for long-running agents",
+      "source_url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+      "output_file": "blogs/09-effective-harnesses-for-long-running-agents/article.md",
+      "bytes": 12686,
+      "assets": 1
+    },
+    {
+      "kind": "blog",
+      "name": "Evaluating Deep Agents: Our Learnings",
+      "source_url": "https://blog.langchain.com/evaluating-deep-agents-our-learnings/",
+      "output_file": "blogs/10-evaluating-deep-agents-our-learnings/article.md",
+      "bytes": 10629,
+      "assets": 9
+    },
+    {
+      "kind": "blog",
+      "name": "Harness design for long-running application development",
+      "source_url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "output_file": "blogs/11-harness-design-for-long-running-application-development/article.md",
+      "bytes": 31802,
+      "assets": 0
+    },
+    {
+      "kind": "blog",
+      "name": "Harness Engineering (Martin Fowler)",
+      "source_url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html",
+      "output_file": "blogs/12-harness-engineering-martin-fowler/article.md",
+      "bytes": 2062,
+      "assets": 1
+    },
+    {
+      "kind": "blog",
+      "name": "Harness engineering (OpenAI)",
+      "source_url": "https://openai.com/index/harness-engineering/",
+      "output_file": "blogs/13-harness-engineering-openai/article.md",
+      "bytes": 26359,
+      "assets": 7
+    },
+    {
+      "kind": "blog",
+      "name": "How we built our multi-agent research system",
+      "source_url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+      "output_file": "blogs/14-how-we-built-our-multi-agent-research-system/article.md",
+      "bytes": 25798,
+      "assets": 3
+    },
+    {
+      "kind": "blog",
+      "name": "Improving Deep Agents with harness engineering",
+      "source_url": "https://blog.langchain.com/improving-deep-agents-with-harness-engineering/",
+      "output_file": "blogs/15-improving-deep-agents-with-harness-engineering/article.md",
+      "bytes": 13102,
+      "assets": 5
+    },
+    {
+      "kind": "blog",
+      "name": "Quantifying infrastructure noise in agentic coding evals",
+      "source_url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "output_file": "blogs/16-quantifying-infrastructure-noise-in-agentic-coding-evals/article.md",
+      "bytes": 10766,
+      "assets": 1
+    },
+    {
+      "kind": "blog",
+      "name": "Skill Issue: Harness Engineering for Coding Agents",
+      "source_url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents",
+      "output_file": "blogs/17-skill-issue-harness-engineering-for-coding-agents/article.md",
+      "bytes": 29360,
+      "assets": 11
+    },
+    {
+      "kind": "blog",
+      "name": "Testing Agent Skills Systematically with Evals",
+      "source_url": "https://developers.openai.com/blog/eval-skills",
+      "output_file": "blogs/18-testing-agent-skills-systematically-with-evals/article.md",
+      "bytes": 17751,
+      "assets": 0
+    },
+    {
+      "kind": "blog",
+      "name": "The Anatomy of an Agent Harness",
+      "source_url": "https://blog.langchain.com/the-anatomy-of-an-agent-harness/",
+      "output_file": "blogs/19-the-anatomy-of-an-agent-harness/article.md",
+      "bytes": 15261,
+      "assets": 3
+    },
+    {
+      "kind": "blog",
+      "name": "Unrolling the Codex agent loop",
+      "source_url": "https://openai.com/index/unrolling-the-codex-agent-loop/",
+      "output_file": "blogs/20-unrolling-the-codex-agent-loop/article.md",
+      "bytes": 32950,
+      "assets": 8
+    },
+    {
+      "kind": "blog",
+      "name": "Writing effective tools for AI agents",
+      "source_url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "output_file": "blogs/21-writing-effective-tools-for-ai-agents/article.md",
+      "bytes": 23100,
+      "assets": 7
+    },
+    {
+      "kind": "blog",
+      "name": "Your Agent Needs a Harness, Not a Framework",
+      "source_url": "https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework",
+      "output_file": "blogs/22-your-agent-needs-a-harness-not-a-framework/article.md",
+      "bytes": 20394,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "DeerFlow",
+      "source_url": "https://github.com/bytedance/deer-flow",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/bytedance__deer-flow/README.md",
+      "bytes": 36596,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "AutoGen",
+      "source_url": "https://github.com/microsoft/autogen",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/microsoft__autogen/README.md",
+      "bytes": 20696,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Agno",
+      "source_url": "https://github.com/agno-agi/agno",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/agno-agi__agno/README.md",
+      "bytes": 6100,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "LangGraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/langchain-ai__langgraph/README.md",
+      "bytes": 6339,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "Semantic Kernel",
+      "source_url": "https://github.com/microsoft/semantic-kernel",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/microsoft__semantic-kernel/README.md",
+      "bytes": 13476,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "OpenAI Agents SDK (Python)",
+      "source_url": "https://github.com/openai/openai-agents-python",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/openai__openai-agents-python/README.md",
+      "bytes": 4866,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "deepagents",
+      "source_url": "https://github.com/langchain-ai/deepagents",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/langchain-ai__deepagents/README.md",
+      "bytes": 6314,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Google ADK (Python)",
+      "source_url": "https://github.com/google/adk-python",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/google__adk-python/README.md",
+      "bytes": 8095,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "PydanticAI",
+      "source_url": "https://github.com/pydantic/pydantic-ai",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/pydantic__pydantic-ai/README.md",
+      "bytes": 12848,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Hive",
+      "source_url": "https://github.com/aden-hive/hive",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/aden-hive__hive/README.md",
+      "bytes": 21621,
+      "assets": 6
+    },
+    {
+      "kind": "project",
+      "name": "Microsoft Agent Framework",
+      "source_url": "https://github.com/microsoft/agent-framework",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/microsoft__agent-framework/README.md",
+      "bytes": 11182,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "mcp-agent",
+      "source_url": "https://github.com/lastmile-ai/mcp-agent",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/lastmile-ai__mcp-agent/README.md",
+      "bytes": 34713,
+      "assets": 8
+    },
+    {
+      "kind": "project",
+      "name": "Yao",
+      "source_url": "https://github.com/YaoApp/yao",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/YaoApp__yao/README.md",
+      "bytes": 2458,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "VoltAgent",
+      "source_url": "https://github.com/VoltAgent/voltagent",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/VoltAgent__voltagent/README.md",
+      "bytes": 17274,
+      "assets": 14
+    },
+    {
+      "kind": "project",
+      "name": "Cloudflare Agents",
+      "source_url": "https://github.com/cloudflare/agents",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/cloudflare__agents/README.md",
+      "bytes": 8035,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Docker Agent",
+      "source_url": "https://github.com/docker/docker-agent",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/docker__docker-agent/README.md",
+      "bytes": 4171,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "NeMo Agent Toolkit",
+      "source_url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit",
+      "readme_path": "README.md",
+      "output_file": "01-harness-architecture-orchestration/NVIDIA__NeMo-Agent-Toolkit/README.md",
+      "bytes": 13999,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "everything-claude-code",
+      "source_url": "https://github.com/affaan-m/everything-claude-code",
+      "readme_path": "README.md",
+      "output_file": "02-context-working-state-engineering/affaan-m__everything-claude-code/README.md",
+      "bytes": 64610,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "claude-mem",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "readme_path": "README.md",
+      "output_file": "02-context-working-state-engineering/thedotmack__claude-mem/README.md",
+      "bytes": 15511,
+      "assets": 5
+    },
+    {
+      "kind": "project",
+      "name": "planning-with-files",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files",
+      "readme_path": "README.md",
+      "output_file": "02-context-working-state-engineering/OthmanAdi__planning-with-files/README.md",
+      "bytes": 20044,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "Agent Skills for Context Engineering",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "readme_path": "README.md",
+      "output_file": "02-context-working-state-engineering/muratcankoylan__Agent-Skills-for-Context-Engineering/README.md",
+      "bytes": 13280,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "Context-Engineering Handbook",
+      "source_url": "https://github.com/davidkimai/Context-Engineering",
+      "readme_path": "README.md",
+      "output_file": "02-context-working-state-engineering/davidkimai__Context-Engineering/README.md",
+      "bytes": 22206,
+      "assets": 10
+    },
+    {
+      "kind": "project",
+      "name": "Trellis",
+      "source_url": "https://github.com/mindfold-ai/Trellis",
+      "readme_path": "README.md",
+      "output_file": "02-context-working-state-engineering/mindfold-ai__Trellis/README.md",
+      "bytes": 10376,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Awesome Context Engineering",
+      "source_url": "https://github.com/Meirtz/Awesome-Context-Engineering",
+      "readme_path": "README.md",
+      "output_file": "02-context-working-state-engineering/Meirtz__Awesome-Context-Engineering/README.md",
+      "bytes": 164390,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "context-space",
+      "source_url": "https://github.com/context-space/context-space",
+      "readme_path": "README.md",
+      "output_file": "02-context-working-state-engineering/context-space__context-space/README.md",
+      "bytes": 10041,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "CUA",
+      "source_url": "https://github.com/trycua/cua",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/trycua__cua/README.md",
+      "bytes": 9916,
+      "assets": 17
+    },
+    {
+      "kind": "project",
+      "name": "E2B",
+      "source_url": "https://github.com/e2b-dev/E2B",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/e2b-dev__E2B/README.md",
+      "bytes": 3249,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "OpenSandbox",
+      "source_url": "https://github.com/alibaba/OpenSandbox",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/alibaba__OpenSandbox/README.md",
+      "bytes": 12702,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "agent-infra sandbox",
+      "source_url": "https://github.com/agent-infra/sandbox",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/agent-infra__sandbox/README.md",
+      "bytes": 14617,
+      "assets": 7
+    },
+    {
+      "kind": "project",
+      "name": "Judge0",
+      "source_url": "https://github.com/judge0/judge0",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/judge0__judge0/README.md",
+      "bytes": 40778,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "OSS-Fuzz Gen",
+      "source_url": "https://github.com/google/oss-fuzz-gen",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/google__oss-fuzz-gen/README.md",
+      "bytes": 11028,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "stakpak/agent",
+      "source_url": "https://github.com/stakpak/agent",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/stakpak__agent/README.md",
+      "bytes": 14169,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "SWE-ReX",
+      "source_url": "https://github.com/SWE-agent/SWE-ReX",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/SWE-agent__SWE-ReX/README.md",
+      "bytes": 3778,
+      "assets": 11
+    },
+    {
+      "kind": "project",
+      "name": "sandboxed.sh",
+      "source_url": "https://github.com/Th0rgal/sandboxed.sh",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/Th0rgal__sandboxed.sh/README.md",
+      "bytes": 8079,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "terminal-bench-env",
+      "source_url": "https://github.com/ucsb-mlsec/terminal-bench-env",
+      "readme_path": "README.md",
+      "output_file": "03-execution-substrates-sandboxing/ucsb-mlsec__terminal-bench-env/README.md",
+      "bytes": 11099,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "GitHub Spec Kit",
+      "source_url": "https://github.com/github/spec-kit",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/github__spec-kit/README.md",
+      "bytes": 69308,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "MCP Servers",
+      "source_url": "https://github.com/modelcontextprotocol/servers",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/modelcontextprotocol__servers/README.md",
+      "bytes": 354133,
+      "assets": 95
+    },
+    {
+      "kind": "project",
+      "name": "AGENTS.md",
+      "source_url": "https://github.com/agentsmd/agents.md",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/agentsmd__agents.md/README.md",
+      "bytes": 2040,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Model Context Protocol",
+      "source_url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/modelcontextprotocol__modelcontextprotocol/README.md",
+      "bytes": 876,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "directories (rules and MCP indexes)",
+      "source_url": "https://github.com/leerob/directories",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/leerob__directories/README.md",
+      "bytes": 3399,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "LangChain MCP Adapters",
+      "source_url": "https://github.com/langchain-ai/langchain-mcp-adapters",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/langchain-ai__langchain-mcp-adapters/README.md",
+      "bytes": 10001,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Microsoft MCP Servers",
+      "source_url": "https://github.com/microsoft/mcp",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/microsoft__mcp/README.md",
+      "bytes": 40265,
+      "assets": 14
+    },
+    {
+      "kind": "project",
+      "name": "ACPX",
+      "source_url": "https://github.com/openclaw/acpx",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/openclaw__acpx/README.md",
+      "bytes": 20385,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Microsoft Learn MCP",
+      "source_url": "https://github.com/MicrosoftDocs/mcp",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/MicrosoftDocs__mcp/README.md",
+      "bytes": 16128,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "IBM MCP",
+      "source_url": "https://github.com/IBM/mcp",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/IBM__mcp/README.md",
+      "bytes": 20457,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "AGENT.md",
+      "source_url": "https://github.com/agentmd/agent.md",
+      "readme_path": "README.md",
+      "output_file": "04-protocols-tool-interfaces-agent-contracts/agentmd__agent.md/README.md",
+      "bytes": 10660,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "Promptfoo",
+      "source_url": "https://github.com/promptfoo/promptfoo",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/promptfoo__promptfoo/README.md",
+      "bytes": 4588,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "DeepEval",
+      "source_url": "https://github.com/confident-ai/deepeval",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/confident-ai__deepeval/README.md",
+      "bytes": 21767,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "RAGAS",
+      "source_url": "https://github.com/vibrantlabsai/ragas",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/vibrantlabsai__ragas/README.md",
+      "bytes": 6940,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "lm-evaluation-harness",
+      "source_url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/EleutherAI__lm-evaluation-harness/README.md",
+      "bytes": 55763,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "SWE-bench",
+      "source_url": "https://github.com/SWE-bench/SWE-bench",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/SWE-bench__SWE-bench/README.md",
+      "bytes": 11382,
+      "assets": 9
+    },
+    {
+      "kind": "project",
+      "name": "verifiers",
+      "source_url": "https://github.com/PrimeIntellect-ai/verifiers",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/PrimeIntellect-ai__verifiers/README.md",
+      "bytes": 8612,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "AgentBench",
+      "source_url": "https://github.com/THUDM/AgentBench",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/THUDM__AgentBench/README.md",
+      "bytes": 11775,
+      "assets": 6
+    },
+    {
+      "kind": "project",
+      "name": "LangWatch",
+      "source_url": "https://github.com/langwatch/langwatch",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/langwatch__langwatch/README.md",
+      "bytes": 9671,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "EvalScope",
+      "source_url": "https://github.com/modelscope/evalscope",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/modelscope__evalscope/README.md",
+      "bytes": 33843,
+      "assets": 13
+    },
+    {
+      "kind": "project",
+      "name": "Terminal-Bench",
+      "source_url": "https://github.com/harbor-framework/terminal-bench",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/harbor-framework__terminal-bench/README.md",
+      "bytes": 6865,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "Harbor",
+      "source_url": "https://github.com/harbor-framework/harbor",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/harbor-framework__harbor/README.md",
+      "bytes": 2534,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "tau2-bench",
+      "source_url": "https://github.com/sierra-research/tau2-bench",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/sierra-research__tau2-bench/README.md",
+      "bytes": 9678,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "NeMo Gym",
+      "source_url": "https://github.com/NVIDIA-NeMo/Gym",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/NVIDIA-NeMo__Gym/README.md",
+      "bytes": 75423,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "Inspect Evals",
+      "source_url": "https://github.com/UKGovernmentBEIS/inspect_evals",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/UKGovernmentBEIS__inspect_evals/README.md",
+      "bytes": 68597,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "WorkArena",
+      "source_url": "https://github.com/ServiceNow/WorkArena",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/ServiceNow__WorkArena/README.md",
+      "bytes": 9299,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "OpenHands Benchmarks",
+      "source_url": "https://github.com/OpenHands/benchmarks",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/OpenHands__benchmarks/README.md",
+      "bytes": 11687,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "WebArena-Verified",
+      "source_url": "https://github.com/ServiceNow/webarena-verified",
+      "readme_path": "README.md",
+      "output_file": "05-evaluation-harnesses-benchmarks/ServiceNow__webarena-verified/README.md",
+      "bytes": 10844,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "MLflow",
+      "source_url": "https://github.com/mlflow/mlflow",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/mlflow__mlflow/README.md",
+      "bytes": 26780,
+      "assets": 68
+    },
+    {
+      "kind": "project",
+      "name": "Langfuse",
+      "source_url": "https://github.com/langfuse/langfuse",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/langfuse__langfuse/README.md",
+      "bytes": 50521,
+      "assets": 100
+    },
+    {
+      "kind": "project",
+      "name": "Opik",
+      "source_url": "https://github.com/comet-ml/opik",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/comet-ml__opik/README.md",
+      "bytes": 32777,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "RagaAI Catalyst",
+      "source_url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/raga-ai-hub__RagaAI-Catalyst/README.md",
+      "bytes": 15446,
+      "assets": 8
+    },
+    {
+      "kind": "project",
+      "name": "TensorZero",
+      "source_url": "https://github.com/tensorzero/tensorzero",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/tensorzero__tensorzero/README.md",
+      "bytes": 17991,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Arize Phoenix",
+      "source_url": "https://github.com/Arize-ai/phoenix",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/Arize-ai__phoenix/README.md",
+      "bytes": 34175,
+      "assets": 28
+    },
+    {
+      "kind": "project",
+      "name": "OpenLLMetry",
+      "source_url": "https://github.com/traceloop/openllmetry",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/traceloop__openllmetry/README.md",
+      "bytes": 10661,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Helicone",
+      "source_url": "https://github.com/Helicone/helicone",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/Helicone__helicone/README.md",
+      "bytes": 15378,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "AgentOps SDK",
+      "source_url": "https://github.com/AgentOps-AI/agentops",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/AgentOps-AI__agentops/README.md",
+      "bytes": 30545,
+      "assets": 34
+    },
+    {
+      "kind": "project",
+      "name": "Latitude",
+      "source_url": "https://github.com/latitude-dev/latitude-llm",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/latitude-dev__latitude-llm/README.md",
+      "bytes": 5893,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "Laminar",
+      "source_url": "https://github.com/lmnr-ai/lmnr",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/lmnr-ai__lmnr/README.md",
+      "bytes": 6015,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "claude-code-reverse",
+      "source_url": "https://github.com/Yuyz0112/claude-code-reverse",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/Yuyz0112__claude-code-reverse/README.md",
+      "bytes": 10372,
+      "assets": 0
+    },
+    {
+      "kind": "project",
+      "name": "OpenInference",
+      "source_url": "https://github.com/Arize-ai/openinference",
+      "readme_path": "README.md",
+      "output_file": "06-observability-reliability-operations/Arize-ai__openinference/README.md",
+      "bytes": 39508,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Kong",
+      "source_url": "https://github.com/Kong/kong",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/Kong__kong/README.md",
+      "bytes": 9297,
+      "assets": 6
+    },
+    {
+      "kind": "project",
+      "name": "LiteLLM",
+      "source_url": "https://github.com/BerriAI/litellm",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/BerriAI__litellm/README.md",
+      "bytes": 26588,
+      "assets": 10
+    },
+    {
+      "kind": "project",
+      "name": "Portkey Gateway",
+      "source_url": "https://github.com/Portkey-AI/gateway",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/Portkey-AI__gateway/README.md",
+      "bytes": 21267,
+      "assets": 25
+    },
+    {
+      "kind": "project",
+      "name": "CAI (Cybersecurity AI)",
+      "source_url": "https://github.com/aliasrobotics/cai",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/aliasrobotics__cai/README.md",
+      "bytes": 85777,
+      "assets": 42
+    },
+    {
+      "kind": "project",
+      "name": "OpenAI Realtime Agents",
+      "source_url": "https://github.com/openai/openai-realtime-agents",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/openai__openai-realtime-agents/README.md",
+      "bytes": 15411,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "Plano",
+      "source_url": "https://github.com/katanemo/plano",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/katanemo__plano/README.md",
+      "bytes": 10019,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "OpenAI CS Agents Demo",
+      "source_url": "https://github.com/openai/openai-cs-agents-demo",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/openai__openai-cs-agents-demo/README.md",
+      "bytes": 8005,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Tracecat",
+      "source_url": "https://github.com/TracecatHQ/tracecat",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/TracecatHQ__tracecat/README.md",
+      "bytes": 4830,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Archestra",
+      "source_url": "https://github.com/archestra-ai/archestra",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/archestra-ai__archestra/README.md",
+      "bytes": 7549,
+      "assets": 10
+    },
+    {
+      "kind": "project",
+      "name": "ContextForge",
+      "source_url": "https://github.com/IBM/mcp-context-forge",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/IBM__mcp-context-forge/README.md",
+      "bytes": 38632,
+      "assets": 5
+    },
+    {
+      "kind": "project",
+      "name": "AgentGateway",
+      "source_url": "https://github.com/agentgateway/agentgateway",
+      "readme_path": "README.md",
+      "output_file": "07-guardrails-security-governance/agentgateway__agentgateway/README.md",
+      "bytes": 6045,
+      "assets": 9
+    },
+    {
+      "kind": "project",
+      "name": "OpenCode",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/anomalyco__opencode/README.md",
+      "bytes": 6285,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Gemini CLI",
+      "source_url": "https://github.com/google-gemini/gemini-cli",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/google-gemini__gemini-cli/README.md",
+      "bytes": 12868,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Codex CLI",
+      "source_url": "https://github.com/openai/codex",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/openai__codex/README.md",
+      "bytes": 2595,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "OpenHands",
+      "source_url": "https://github.com/OpenHands/OpenHands",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/OpenHands__OpenHands/README.md",
+      "bytes": 7639,
+      "assets": 26
+    },
+    {
+      "kind": "project",
+      "name": "OpenManus",
+      "source_url": "https://github.com/FoundationAgents/OpenManus",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/FoundationAgents__OpenManus/README.md",
+      "bytes": 8225,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "learn-claude-code",
+      "source_url": "https://github.com/shareAI-lab/learn-claude-code",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/shareAI-lab__learn-claude-code/README.md",
+      "bytes": 23793,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "aider",
+      "source_url": "https://github.com/Aider-AI/aider",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/Aider-AI__aider/README.md",
+      "bytes": 12310,
+      "assets": 10
+    },
+    {
+      "kind": "project",
+      "name": "Claude Code Plugins: Orchestration and Automation",
+      "source_url": "https://github.com/wshobson/agents",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/wshobson__agents/README.md",
+      "bytes": 18314,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "CLI-Anything",
+      "source_url": "https://github.com/HKUDS/CLI-Anything",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/HKUDS__CLI-Anything/README.md",
+      "bytes": 50641,
+      "assets": 11
+    },
+    {
+      "kind": "project",
+      "name": "SuperClaude Framework",
+      "source_url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/SuperClaude-Org__SuperClaude_Framework/README.md",
+      "bytes": 19348,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "Qwen Code",
+      "source_url": "https://github.com/QwenLM/qwen-code",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/QwenLM__qwen-code/README.md",
+      "bytes": 16925,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Devika",
+      "source_url": "https://github.com/stitionai/devika",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/stitionai__devika/README.md",
+      "bytes": 8025,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "SWE-agent",
+      "source_url": "https://github.com/SWE-agent/SWE-agent",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/SWE-agent__SWE-agent/README.md",
+      "bytes": 8301,
+      "assets": 13
+    },
+    {
+      "kind": "project",
+      "name": "Aperant",
+      "source_url": "https://github.com/AndyMik90/Aperant",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/AndyMik90__Aperant/README.md",
+      "bytes": 8643,
+      "assets": 4
+    },
+    {
+      "kind": "project",
+      "name": "Eigent",
+      "source_url": "https://github.com/eigent-ai/eigent",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/eigent-ai__eigent/README.md",
+      "bytes": 22036,
+      "assets": 26
+    },
+    {
+      "kind": "project",
+      "name": "Open SWE",
+      "source_url": "https://github.com/langchain-ai/open-swe",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/langchain-ai__open-swe/README.md",
+      "bytes": 9865,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "OpenHarness",
+      "source_url": "https://github.com/HKUDS/OpenHarness",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/HKUDS__OpenHarness/README.md",
+      "bytes": 27222,
+      "assets": 12
+    },
+    {
+      "kind": "project",
+      "name": "OSAURUS",
+      "source_url": "https://github.com/osaurus-ai/osaurus",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/osaurus-ai__osaurus/README.md",
+      "bytes": 15979,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "HiClaw",
+      "source_url": "https://github.com/agentscope-ai/HiClaw",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/agentscope-ai__HiClaw/README.md",
+      "bytes": 12437,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "mini-swe-agent",
+      "source_url": "https://github.com/SWE-agent/mini-swe-agent",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/SWE-agent__mini-swe-agent/README.md",
+      "bytes": 10376,
+      "assets": 10
+    },
+    {
+      "kind": "project",
+      "name": "TinyAGI",
+      "source_url": "https://github.com/TinyAGI/tinyagi",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/TinyAGI__tinyagi/README.md",
+      "bytes": 28725,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "Devon",
+      "source_url": "https://github.com/entropy-research/Devon",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/entropy-research__Devon/README.md",
+      "bytes": 8388,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "Open Claude Cowork",
+      "source_url": "https://github.com/DevAgentForge/Open-Claude-Cowork",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/DevAgentForge__Open-Claude-Cowork/README.md",
+      "bytes": 3809,
+      "assets": 1
+    },
+    {
+      "kind": "project",
+      "name": "oh-my-pi",
+      "source_url": "https://github.com/can1357/oh-my-pi",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/can1357__oh-my-pi/README.md",
+      "bytes": 60896,
+      "assets": 12
+    },
+    {
+      "kind": "project",
+      "name": "Amazon Bedrock AgentCore Samples",
+      "source_url": "https://github.com/awslabs/agentcore-samples",
+      "readme_path": "README.md",
+      "output_file": "08-reference-harness-implementations/awslabs__agentcore-samples/README.md",
+      "bytes": 11042,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "awesome-claude-code",
+      "source_url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "readme_path": "README.md",
+      "output_file": "09-essential-readings-ecosystem-maps/hesreallyhim__awesome-claude-code/README.md",
+      "bytes": 72012,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "awesome-agentic-patterns",
+      "source_url": "https://github.com/nibzard/awesome-agentic-patterns",
+      "readme_path": "README.md",
+      "output_file": "09-essential-readings-ecosystem-maps/nibzard__awesome-agentic-patterns/README.md",
+      "bytes": 18478,
+      "assets": 2
+    },
+    {
+      "kind": "project",
+      "name": "awesome-mcp-servers",
+      "source_url": "https://github.com/wong2/awesome-mcp-servers",
+      "readme_path": "README.md",
+      "output_file": "09-essential-readings-ecosystem-maps/wong2__awesome-mcp-servers/README.md",
+      "bytes": 100117,
+      "assets": 3
+    },
+    {
+      "kind": "project",
+      "name": "awesome-harness-engineering",
+      "source_url": "https://github.com/walkinglabs/awesome-harness-engineering",
+      "readme_path": "README.md",
+      "output_file": "09-essential-readings-ecosystem-maps/walkinglabs__awesome-harness-engineering/README.md",
+      "bytes": 23378,
+      "assets": 0
+    }
+  ],
+  "failures": []
+}

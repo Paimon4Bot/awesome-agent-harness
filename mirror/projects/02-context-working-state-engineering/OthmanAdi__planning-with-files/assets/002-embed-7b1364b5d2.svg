@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420" role="img" aria-label="RepoStars embed for OthmanAdi/planning-with-files">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4956a" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#d4956a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="420" fill="#1c1210" rx="14"/>
+  <rect x="1" y="1" width="698" height="418" fill="none" stroke="#2a1e1a" rx="13"/>
+
+  <text x="22" y="36" fill="#a08070" font-family="Geist, Inter, Segoe UI, Arial" font-size="17" font-weight="600">OthmanAdi/planning-with-files</text>
+
+  <rect x="20" y="46" width="170" height="36" rx="9" fill="#2a1e1a" opacity="0.45"/>
+  <text x="32" y="70" fill="#d4956a" font-family="Geist, Inter, Segoe UI, Arial" font-size="23" font-weight="700">★ 18.2k</text>
+
+  <g transform="translate(44,98)">
+    <line x1="0" y1="0" x2="0" y2="260" stroke="#2a1e1a"/>
+    <line x1="0" y1="260" x2="636" y2="260" stroke="#2a1e1a"/>
+    <line x1="0" y1="130" x2="636" y2="130" stroke="#2a1e1a" stroke-dasharray="4 4"/>
+    <line x1="0" y1="0" x2="636" y2="0" stroke="#2a1e1a" stroke-dasharray="4 4"/>
+
+    <text x="-10" y="4" text-anchor="end" fill="#a08070" font-family="Geist, Inter, Segoe UI, Arial" font-size="10" opacity="0.95">18.2k</text>
+    <text x="-10" y="134" text-anchor="end" fill="#a08070" font-family="Geist, Inter, Segoe UI, Arial" font-size="10" opacity="0.95">9.1k</text>
+    <text x="-10" y="264" text-anchor="end" fill="#a08070" font-family="Geist, Inter, Segoe UI, Arial" font-size="10" opacity="0.95">0</text>
+
+    <polygon points="0.00,260.00 45.43,168.32 90.86,129.65 136.29,103.87 181.71,91.90 227.14,71.95 272.57,63.76 318.00,58.74 363.43,50.87 408.86,45.14 454.29,32.24 499.71,25.08 545.14,12.19 590.57,6.46 636.00,0.00 636,260 0,260" fill="url(#g)"/>
+    <polyline points="0.00,260.00 45.43,168.32 90.86,129.65 136.29,103.87 181.71,91.90 227.14,71.95 272.57,63.76 318.00,58.74 363.43,50.87 408.86,45.14 454.29,32.24 499.71,25.08 545.14,12.19 590.57,6.46 636.00,0.00" fill="none" stroke="#d4956a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="0" y="280" fill="#a08070" font-family="Geist, Inter, Segoe UI, Arial" font-size="10" opacity="0.82">2026-01-03</text>
+    <text x="318" y="280" text-anchor="middle" fill="#a08070" font-family="Geist, Inter, Segoe UI, Arial" font-size="10" opacity="0.82">2026-02-21</text>
+    <text x="636" y="280" text-anchor="end" fill="#a08070" font-family="Geist, Inter, Segoe UI, Arial" font-size="10" opacity="0.82">2026-04-07</text>
+  </g>
+
+  <text x="676" y="402" text-anchor="end" fill="#a08070" font-family="Geist, Inter, Segoe UI, Arial" font-size="12" opacity="0.82">Powered by repostars.dev</text>
+</svg>
