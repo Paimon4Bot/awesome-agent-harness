@@ -1,5 +1,9 @@
 # Agent 框架、运行时与 Harness——天哪！
 
+我们维护着几个不同的开源包：[LangChain](https://docs.langchain.com/oss/python/langchain/overview?ref=blog.langchain.com) 和 [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview?ref=blog.langchain.com) 是其中最大的两个，而 [DeepAgents](https://docs.langchain.com/oss/python/deepagents/overview?ref=blog.langchain.com) 也正变得越来越受欢迎。我开始用不同的术语来描述它们：LangChain 是 agent 框架，LangGraph 是 agent 运行时，而 DeepAgents 则是一个 [agent harness](https://www.vtrivedy.com/posts/claude-code-sdk-haas-harness-as-a-service?ref=blog.langchain.com)。
+
+其他人也在使用这些术语，但我认为 framework、runtime 和 harness 之间还没有一个清晰的定义。这篇文章是我试着对这些概念做出界定的一次尝试。我也很愿意承认，其中依然存在模糊和重叠之处，所以非常欢迎任何反馈！
+
 ## Agent 框架 (LangChain)
 
 市面上大多数帮助基于 LLM 进行开发的包，我会将其归类为 agent 框架。它们的主要价值在于提供抽象。这些抽象代表了一种对世界的认知模型，理想情况下应能降低上手门槛。它们还提供了构建应用的标准方式，使开发者能够轻松上手并在不同项目之间切换。对抽象的批评主要集中在：如果设计不当，可能会掩盖底层运作机制，且无法满足高级用例所需的灵活性。

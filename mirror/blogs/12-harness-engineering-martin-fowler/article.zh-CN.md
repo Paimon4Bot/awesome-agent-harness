@@ -1,78 +1,57 @@
 # 面向编程代理用户的 Harness 工程
 
-[![Image 1](assets/001-image-1-e47806a5e2.png)](https://martinfowler.com/)
+阅读 OpenAI 最近发表的关于 "Harness 工程学"（harness engineering）的文章非常有趣。文章描述了一个团队如何将"完全不手动编写代码"作为约束条件，构建了一套 harness（约束框架），用于以 AI 代理维护大型应用。经过 5 个月的时间，他们构建了一个真正的产品，如今已超过 100 万行代码。
 
-*   [重构](https://refactoring.com/)
-*   [敏捷](http://martinfowler.com/agile.html)
-*   [架构](http://martinfowler.com/architecture)
-*   [关于](http://martinfowler.com/aboutMe.html)
-*   [Thoughtworks](https://www.thoughtworks.com/engineering)
-*   [](http://martinfowler.com/feed.atom "feed")
-*   [](https://www.twitter.com/martinfowler "Twitter stream")
-*   [](https://toot.thoughtworks.com/@mfowler "Mastodon stream")
-*   [](https://www.linkedin.com/in/martin-fowler-com/ "LinkedIn")
-*   [](https://bsky.app/profile/martinfowler.com "BlueSky")
+这篇文章的标题是"Harness engineering: leveraging Codex in an agent-first world"（Harness 工程：在代理优先的世界中发挥 Codex 的作用），但正文中只提到过一次"harness"这个词。也许这个词是受 Mitchell Hashimoto 近期博客文章启发而事后加上去的。无论如何，我喜欢用"harness"这个词来描述我们用来约束 AI 代理的工具和实践。
 
-## 主题
+OpenAI 团队的 harness 组件混合使用了确定性和基于 LLM 的方法，可分为 3 个类别（基于我的理解进行分组）：
 
-[架构](http://martinfowler.com/architecture)
+1. **上下文工程（Context engineering）**：在代码库中持续增强知识库，加上代理可以访问可观测性数据、浏览器导航等动态上下文
+2. **架构约束（Architectural constraints）**：不仅由基于 LLM 的代理进行监控，还包括确定性的自定义代码检查器（linter）和结构化测试
+3. **"垃圾回收"（Garbage collection）**：定期运行的代理，用于发现文档中的不一致或架构约束的违反，对抗熵增和衰退
 
-[重构](https://refactoring.com/)
+他们还强调了这一过程的迭代性："当代理遇到困难时，我们将其视为一个信号：识别缺失的部分——工具、护栏、文档——并将其反馈到代码库中，而且始终由 Codex 本身来编写修复方案。"
 
-[敏捷](http://martinfowler.com/agile.html)
+所有这些措施都聚焦于提升长期的内部质量和可维护性。我在文中没有看到的是对功能和行为验证的讨论。
 
-[交付](http://martinfowler.com/delivery.html)
+暂且将这一空白搁置一旁，假设我们可以信任 OpenAI 对此成果的描述（出于对作者和团队的尊重，需要指出 OpenAI 确实有让我们相信 AI 可维护代码的既得利益）——以下是文中*确实涵盖*内容的我的思考。
 
-[微服务](http://martinfowler.com/microservices)
+### Harness——未来的服务模板？
 
-[数据](http://martinfowler.com/data)
+大多数组织只有两三个主要技术栈——并非每个应用都是独一无二的。这篇文章让我设想了这样一种未来：团队从一组面向常见应用拓扑的 harness 中选择以快速启动项目。这让人联想到如今的服务模板（service template），它帮助团队在"黄金路径"（golden path）上实例化新服务。Harness——包含自定义代码检查器、结构化测试、基础上下文和知识文档，以及额外的上下文提供者——会成为新的服务模板吗？团队会将其作为起点，然后随着时间的推移根据应用的具体情况进行定制吗？
 
-[测试](http://martinfowler.com/testing)
+在服务模板的使用中，团队在积累经验后会贡献回馈，但其他团队往往难以整合这些更新。Harness 是否也会面临类似的分叉和同步挑战？
 
-[DSL](http://martinfowler.com/dsl.html)
+这篇文章还让我重新审视了我之前的一些假设：
 
-## 关于我
+### 运行时必须被约束才能赋予 AI 更多自主性？
 
-[关于](http://martinfowler.com/aboutMe.html)
+许多早期和当前的 AI 编程热潮假设 LLM 会赋予目标运行时无限的灵活性。用任何语言、任何模式生成代码，不受约束——LLM 会搞定一切。但要让我们能够信任的大规模可维护 AI 生成代码，就必须有所取舍。
 
-[书籍](http://martinfowler.com/books)
+文中描述的 harness 表明，提高信任和可靠性需要约束解空间：特定的架构模式、强制的边界、标准化的结构。这意味着放弃一些"生成任何东西"的灵活性，转而使用充满技术细节的提示词、规则和 harness。
 
-[常见问题](http://martinfowler.com/faq.html)
+### 趋同于有限数量的技术栈和拓扑？
 
-## 内容
+随着编程不再主要是手动编写代码，而是更多地转向引导代码生成，AI 可能会推动我们走向更少的技术栈。框架和 SDK 的可用性仍然重要——我们反复看到，对人类友好的东西对 AI 也友好。但在那个层面的细节上，开发者的个人偏好将变得不那么重要。接口中的小瑕疵和特殊之处将不再那么令人烦恼，因为我们不再直接与它们打交道。我们可能会选择拥有良好 harness 的技术栈，并优先考虑"AI 友好性"。
 
-[视频](http://martinfowler.com/videos.html)
+这不仅适用于技术栈，也可能适用于代码库结构和拓扑。我们可能会默认选择那些更容易用 AI 维护的结构，因为它们更容易被 harness 约束。OpenAI 团队讨论了架构的刚性和强制规则。我能看到的主要关注点是保持数据结构的稳定性，以及定义和强制模块边界。这听起来很合理——但缺乏具体示例，我仍然难以想象"我们要求 Codex 在边界处解析数据形态"在实践中、在他们的 harness 中具体是什么样子。
 
-[内容索引](http://martinfowler.com/tags)
+但如果我们能广泛地找到约束代码库设计模式的方法，这些拓扑会成为新的抽象层吗？还是说自然语言本身才是许多 AI 爱好者所期望的抽象层？
 
-[桌游](http://martinfowler.com/boardgames)
+### 两种未来世界：前 AI 时代 vs 后 AI 时代的应用维护？
 
-[摄影](http://martinfowler.com/photos)
+假设我们开发了良好的 harness 技术来将 AI 自主性调到 9 级并提高对结果的信心。哪些技术可以应用于现有应用，哪些又只适用于从零开始、以 harness 为考量构建的应用？
 
-## Thoughtworks
+对于较老的代码库，我们需要考虑为它们加装 harness 是否值得投入。AI 可以帮助我们更快地完成这项工作，但这些应用通常如此非标准化、充满了熵，以至于可能不值得这样做。这让我想到在一个从未使用过静态代码分析工具的代码库上运行分析器，然后被大量告警淹没的场景。
 
-[首页](https://thoughtworks.com/)
+### 你今天的 harness 是什么？
 
-[洞察](https://thoughtworks.com/insights)
+这个团队花了 5 个月时间构建他们的 harness，说明这不是一件可以快速见效的事情。但值得反思的是，你今天的 harness 是什么。你有 pre-commit 钩子吗？里面有什么？你有自定义代码检查器的想法吗？你想对代码库施加哪些架构约束？你是否尝试过 ArchUnit 等结构化测试框架？
 
-[招聘](https://thoughtworks.com/careers)
+### 最后的思考
 
-[技术雷达](https://thoughtworks.com/radar)
+不出所料，他们所描述的工作比仅仅生成和维护一堆 Markdown 规则文件要辛苦得多。他们为 harness 的确定性部分构建了大量工具。他们的上下文工程不仅涉及知识库的精心维护，还包括大量的设计工作——代码设计本身就是一个巨大的上下文来源。
 
-[工程](https://www.thoughtworks.com/engineering)
+OpenAI 团队表示："我们如今最困难的挑战集中在设计环境、反馈循环和控制系统上。"这让我想起了 Chad Fowler 最近发表的关于"Rigor 的迁移"（Relocating Rigor）的文章。听到关于这种严谨性应该投向何处的具体想法和实践经验，而不是仅仅寄希望于"更好的模型"能神奇地解决可维护性问题，令人耳目一新。
 
-## 关注
-
-[RSS](http://martinfowler.com/feed.atom)
-
-[Mastodon](https://toot.thoughtworks.com/@mfowler)
-
-[LinkedIn](https://www.linkedin.com/in/martin-fowler-com/)
-
-[Bluesky](https://bsky.app/profile/martinfowler.com)
-
-[X](https://www.twitter.com/martinfowler)
-
-[BGG](https://boardgamegeek.com/blog/13064/martins-7th-decade)
-
-© Martin Fowler | [声明](http://martinfowler.com/aboutMe.html#disclosures)
+最后，难得有一次我喜欢这个领域的一个术语。虽然它才诞生两周——我大概还能屏住呼吸，直到有人把他们那个单提示词、基于 LLM 的代码审查代理也称为"harness"……
